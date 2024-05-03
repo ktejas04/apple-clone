@@ -1,0 +1,23 @@
+GSAP - GreenSock Animation Platform
+
+GSAP functions
+.to() - animates in forward direction from start position to end position(current to new)
+.from() - animates in reverse direction from end position to start position(new to currekknt)
+.fromto() - new state to new state
+.timeline() - for multiple animations one after the other
+stagger{} - GSAP Stagger property which can be applied to any animation
+scrollTrigger{} - animations triggered by scroll - READ
+
+
+
+Three.js - For 3D web development
+3D dev - x,y,z
+i. Scene - the environment containing all the objects , camera and lighting
+ii. Renderer - converts 3d to 2d
+iii. Camera - position, rotation and field of view
+iv. Lights - colour, intensity and position
+v. Meshes - Geometry and Material
+React Three Fiber - acts as a wrapper
+
+
+

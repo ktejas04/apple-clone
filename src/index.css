@@ -12,11 +12,17 @@ body {
   color: white;
   width: 100dvw;
   overflow-x: hidden;
+  overflow-y: scroll;
   height: 100%;
   background: #000;
   border-color: #3b3b3b;
   user-select: none;
 }
+
+::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for WebKit browsers (Chrome, Safari) */
+}
+
 
 canvas {
   touch-action: none;
